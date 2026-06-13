@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "bio": "Digital marketing strategist with 10+ years of experience in growth and community building",
+    "avatar": "/public/assets/creator-1.jpg",
+    "email": "sarah@example.com",
+    "website": "https://sarahchen.com",
+    "twitter": "https://twitter.com/sarahchen",
+    "productsCount": 5,
+    "totalStudents": 2500
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "bio": "UI/UX designer and design systems specialist focused on scalable design",
+    "avatar": "/public/assets/creator-2.jpg",
+    "email": "marcus@example.com",
+    "website": "https://marcusjohnson.design",
+    "twitter": "https://twitter.com/marcusjohnson",
+    "productsCount": 8,
+    "totalStudents": 1800
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "bio": "Business coach and entrepreneur helping founders scale from zero to seven figures",
+    "avatar": "/public/assets/creator-3.jpg",
+    "email": "elena@example.com",
+    "website": "https://elenarod.co",
+    "twitter": "https://twitter.com/elenarod",
+    "productsCount": 3,
+    "totalStudents": 3200
+  }
+]

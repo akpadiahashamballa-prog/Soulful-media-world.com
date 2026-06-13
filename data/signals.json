@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Market Analysis: Q2 2026 Trends",
+    "content": "Based on recent data, we're seeing emerging trends in digital commerce and creator economy. Key indicators point to increased demand for niche products and specialized services. Consumer behavior is shifting towards authentic, community-driven platforms. Businesses that prioritize personalization and transparency are gaining market share.",
+    "category": "market-analysis",
+    "level": "intermediate",
+    "timestamp": "2026-06-13",
+    "creatorId": 1
+  },
+  {
+    "id": 2,
+    "title": "Tech Innovation Alert: AI in Marketing",
+    "content": "Artificial intelligence is revolutionizing marketing automation. We're seeing breakthrough applications in personalization, customer segmentation, and predictive analytics. Companies implementing AI-driven strategies are experiencing 40% improvement in conversion rates. Early adoption is becoming a competitive advantage.",
+    "category": "technology",
+    "level": "advanced",
+    "timestamp": "2026-06-12",
+    "creatorId": 2
+  },
+  {
+    "id": 3,
+    "title": "Creator Economy Update: Monetization Strategies",
+    "content": "New monetization channels are opening for content creators. Beyond traditional sponsorships, creators are leveraging membership models, digital products, and consulting services. The average creator income has increased by 35% over the past year. Diversification is key to sustainable creator success.",
+    "category": "creator-economy",
+    "level": "beginner",
+    "timestamp": "2026-06-11",
+    "creatorId": 3
+  }
+]

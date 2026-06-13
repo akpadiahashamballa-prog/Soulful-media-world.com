@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Marketing Masterclass",
+    "description": "Learn proven digital marketing strategies to grow your online presence",
+    "category": "courses",
+    "price": 49.99,
+    "rating": 4.8,
+    "image": "/public/assets/product-1.jpg",
+    "creatorId": 1,
+    "includes": [
+      "15 video modules",
+      "Downloadable templates",
+      "Live Q&A sessions",
+      "Lifetime access"
+    ],
+    "created": "2026-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Web Design UI Kit",
+    "description": "Professional UI components and design system for modern web applications",
+    "category": "templates",
+    "price": 29.99,
+    "rating": 4.6,
+    "image": "/public/assets/product-2.jpg",
+    "creatorId": 2,
+    "includes": [
+      "500+ UI components",
+      "Figma files",
+      "CSS framework",
+      "Documentation"
+    ],
+    "created": "2026-02-10"
+  },
+  {
+    "id": 3,
+    "title": "Business Growth Guide",
+    "description": "Comprehensive guide to scaling your business from startup to success",
+    "category": "guides",
+    "price": 19.99,
+    "rating": 4.7,
+    "image": "/public/assets/product-3.jpg",
+    "creatorId": 3,
+    "includes": [
+      "50-page guide",
+      "Case studies",
+      "Action worksheets",
+      "Email support"
+    ],
+    "created": "2026-03-05"
+  },
+  {
+    "id": 4,
+    "title": "Social Media Content Calendar",
+    "description": "12-month content calendar with ready-to-post templates",
+    "category": "templates",
+    "price": 24.99,
+    "rating": 4.5,
+    "image": "/public/assets/product-4.jpg",
+    "creatorId": 1,
+    "includes": [
+      "365 post ideas",
+      "Canva templates",
+      "Best times to post",
+      "Analytics guide"
+    ],
+    "created": "2026-01-20"
+  }
+]

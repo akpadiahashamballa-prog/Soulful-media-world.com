@@ -1,0 +1,27 @@
+{
+  "name": "soulful-media-world",
+  "version": "1.0.0",
+  "description": "A modular digital ecosystem for structured content, digital products, and creator-driven marketplaces",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "http-server -p 8000 -o",
+    "build": "echo 'No build process required for pure HTML/CSS/JS'"
+  },
+  "keywords": [
+    "marketplace",
+    "digital-products",
+    "creator-economy",
+    "ecommerce",
+    "paystack"
+  ],
+  "author": "Soulful Media World",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akpadiahashamballa-prog/Soulful-media-world.com"
+  }
+}
