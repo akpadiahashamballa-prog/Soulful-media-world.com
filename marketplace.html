@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - Soulful Media World</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/marketplace.css">
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+    <section class="marketplace-header">
+        <div class="container">
+            <h1>Marketplace</h1>
+            <p>Explore digital products and creator content</p>
+        </div>
+    </section>
+    <section class="marketplace-controls">
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search products...">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="filters">
+                <select id="category-filter">
+                    <option value="">All Categories</option>
+                    <option value="courses">Courses</option>
+                    <option value="templates">Templates</option>
+                    <option value="tools">Tools</option>
+                    <option value="guides">Guides</option>
+                </select>
+                <select id="sort-filter">
+                    <option value="latest">Latest</option>
+                    <option value="popular">Most Popular</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="marketplace-section">
+        <div class="container">
+            <div id="products-container" class="products-grid"></div>
+        </div>
+    </section>
+    <section class="pagination-section">
+        <div class="container">
+            <div id="pagination" class="pagination"></div>
+        </div>
+    </section>
+    <footer id="footer-container"></footer>
+    <script src="src/scripts/app.js"></script>
+    <script src="src/scripts/marketplace.js"></script>
+</body>
+</html>

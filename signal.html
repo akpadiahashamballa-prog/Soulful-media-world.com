@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal - Soulful Media World</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/product.css">
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+    <main class="signal-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="marketplace.html">Marketplace</a> / <span id="breadcrumb-title">Signal</span>
+            </div>
+            <div class="signal-content">
+                <div class="signal-header">
+                    <h1 id="signal-title"></h1>
+                    <p id="signal-timestamp" class="timestamp"></p>
+                </div>
+                <article class="signal-details">
+                    <div class="signal-meta">
+                        <span id="signal-category" class="badge"></span>
+                        <span id="signal-level" class="badge"></span>
+                    </div>
+                    <div id="signal-body" class="signal-body"></div>
+                    <div class="signal-actions">
+                        <button id="signal-subscribe" class="btn btn-primary">Subscribe to Updates</button>
+                        <button id="signal-share" class="btn btn-outline">Share Signal</button>
+                    </div>
+                </article>
+                <section class="creator-section">
+                    <h2>Signal Creator</h2>
+                    <div id="signal-creator" class="creator-card"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script src="src/scripts/app.js"></script>
+    <script src="src/scripts/marketplace.js"></script>
+</body>
+</html>

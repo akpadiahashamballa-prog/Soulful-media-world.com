@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Soulful Media World</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/product.css">
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+    <main class="product-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="marketplace.html">Marketplace</a> / <span id="breadcrumb-title">Product</span>
+            </div>
+            <div class="product-grid">
+                <div class="product-preview">
+                    <img id="product-image" src="" alt="Product" />
+                </div>
+                <div class="product-details">
+                    <h1 id="product-title"></h1>
+                    <p id="product-description"></p>
+                    <div class="product-meta">
+                        <div class="rating">
+                            <span id="product-rating">4.5</span> ⭐
+                        </div>
+                        <div class="category">
+                            <span id="product-category"></span>
+                        </div>
+                    </div>
+                    <div class="product-pricing">
+                        <div class="price">
+                            <span class="label">Price:</span>
+                            <span id="product-price" class="amount"></span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button id="add-to-cart" class="btn btn-primary btn-large">Add to Cart</button>
+                        <button id="buy-now" class="btn btn-success btn-large">Buy Now</button>
+                        <button id="wishlist-btn" class="btn btn-outline">♡ Wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>What's Included</h3>
+                        <ul id="includes-list"></ul>
+                    </div>
+                </div>
+            </div>
+            <section class="creator-section">
+                <h2>About the Creator</h2>
+                <div id="creator-info" class="creator-card"></div>
+            </section>
+            <section class="related-section">
+                <h2>Related Products</h2>
+                <div id="related-products" class="products-grid"></div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer-container"></footer>
+    <script src="src/scripts/app.js"></script>
+    <script src="src/scripts/products.js"></script>
+    <script src="src/scripts/payments.js"></script>
+</body>
+</html>
